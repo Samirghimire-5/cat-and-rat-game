@@ -135,7 +135,7 @@ const Squid = () => {
             <h2 className="font-semibold mb-2">How to Play:</h2>
             <p>1. Press Start to begin</p>
             <p>2. Use the RIGHT ARROW key to move when the light is GREEN</p>
-            <p>3. DON'T MOVE when the light is RED or the cat will catch you!</p>
+            <p>3. DON&#39;T MOVE when the light is RED or the cat will catch you!</p>
             <p>4. Reach the pizza to win!</p>
           </CardContent>
         </Card>
