@@ -4,7 +4,7 @@ const initialState = {
   margin: 0,
 }
 
-export const CatRatSlice = createSlice({
+export const catRatSlice = createSlice({
   name : 'catRat',
   initialState,
   reducers: {
@@ -19,6 +19,6 @@ export const CatRatSlice = createSlice({
   }
 })
 
-export const { forward, restart } = CatRatSlice.actions
+export const { forward, restart } = catRatSlice.actions
 
-export default CatRatSlice.reducer
+export default catRatSlice.reducer
