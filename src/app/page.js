@@ -21,7 +21,7 @@ const Squid = () => {
       setStart(false);
       dispatch(restart());
     }
-  }, [margin]);
+  }, [margin, dispatch]);
 
   useEffect(() => {
     if (start) {
@@ -52,7 +52,7 @@ const Squid = () => {
         window.removeEventListener("keydown", handleKeydown);   // Each time light changes, the effect removes the previous event listener and adds a new one with the updated light state.
       };
     }
-  }, [start, light]);
+  }, [start, light, dispatch]);
 
   const playAgain = () => {
     setStart(true);
