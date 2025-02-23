@@ -1,10 +1,10 @@
 "use client";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
+import { forward, restart } from "@/lib/features/catRat/catRatSlice";
 import { Cat, Pizza, Rat, RotateCcw, Play} from "lucide-react";
 import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { forward, restart } from "../../lib/features/catRat/catRatSlice";
 
 const Squid = () => {
   const { margin } = useSelector((state) => state.catRat);
